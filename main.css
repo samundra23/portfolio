@@ -159,7 +159,7 @@ span{
     background: var(--second-bg-color);
 }
 .about-img img{
-    width: 45vw;
+    width: 35vw;
 }
 .heading{
     text-align: center;
@@ -453,7 +453,7 @@ span{
     .about{
         flex-direction: column-reverse;
     }
-    .about-img{
+    .about-img img{
         width: 70vw;
         margin-top: 4rem;
     }
