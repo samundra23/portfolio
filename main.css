@@ -445,6 +445,7 @@ span{
 }
 .footer-text p{
     font-size: 1.6rem;
+    font-style: italic;
 }
 .footer-iconTop a{
     display: inline-flex;
@@ -456,6 +457,11 @@ span{
     transition: .5s ease;
 
 }
+p.mail {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
 
 .footer-iconTop a:hover{
     box-shadow: 0 0 1rem var(--main-color );
