@@ -357,6 +357,7 @@ span{
     border-radius: .6rem;
     padding: .5rem;
     margin: 1rem 0;
+   
     
 }
 .skills-content .progress .bar span{
@@ -364,29 +365,55 @@ span{
     height: 100%;
     background: var(--main-color);
     border-radius: .3rem;
+    animation: progress-animation 5s linear infinite;
 }
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
+@keyframes progress-animation{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+ .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
+    animation: progress-animation 5s ease-in-out;
     width: 90%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 80%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 60%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 70%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 90%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 65%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 80%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
+    animation: progress-animation 5s ease-in-out;
+
     width: 70%;
 }
 
